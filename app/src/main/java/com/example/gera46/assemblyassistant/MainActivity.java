@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             "04. Battery removal",
     };
 
-    @Override
+    /*@Override
     protected void onPause() {
         super.onPause();
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString("lastActivity", getClass().getName());
         editor.commit();
-    }
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
