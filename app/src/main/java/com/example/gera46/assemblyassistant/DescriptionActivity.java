@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class DescriptionActivity extends AppCompatActivity {
 
-    @Override
+    /*@Override
     protected void onPause() {
         super.onPause();
 
@@ -17,7 +17,7 @@ public class DescriptionActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString("lastActivity", getClass().getName());
         editor.commit();
-    }
+    }*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
